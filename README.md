@@ -1,5 +1,12 @@
 # ClimateNetAI
 
+## Live Application
+
+ClimateNetAI v1.0 is publicly available at:
+
+https://climatenetai.streamlit.app
+
+
 ClimateNetAI is a climate-aware machine-learning research application for predicting wireless signal strength under atmospheric variability.
 
 ## Version

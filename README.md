@@ -2,7 +2,7 @@
 
 ## Live Application
 
-ClimateNetAI v1.0 is publicly available at:
+ClimateNetAI v1.0.1 is publicly available at:
 
 https://climatenetai.streamlit.app
 
@@ -11,7 +11,7 @@ ClimateNetAI is a climate-aware machine-learning research application for predic
 
 ## Version
 
-**ClimateNetAI v1.0**
+**ClimateNetAI v1.0.1**
 
 Research Prototype  
 Developed by **Olohimai Juliet Michael**
@@ -52,7 +52,7 @@ Model availability may vary by month where validation or reliability checks indi
 
 ## Application Features
 
-ClimateNetAI v1.0 includes:
+ClimateNetAI v1.0.1 includes:
 
 - Monthly RSSI prediction
 - Signal-quality classification
@@ -103,6 +103,7 @@ From the project directory:
 
 ```bash
 python3 -m streamlit run app.py
+```
 
 ## Core Project Files
 
@@ -114,3 +115,25 @@ modeling_dataset_v1.csv
 monthly_model_results.csv
 best_model_per_month_validated.csv
 models/monthly_models/
+requirements.txt
+CITATION.cff
+LICENSE
+```
+
+## License
+
+ClimateNetAI is released under the **MIT License**. See the `LICENSE` file for the full license text.
+
+## Citation
+
+If you use ClimateNetAI in research, please cite the archived software release:
+
+**Michael, Olohimai Juliet. ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21892444**
+
+## Model Persistence and Reproducibility
+
+The archived ClimateNetAI model set preserves the trained model artefacts used by this research release. Inspection of the serialized estimators indicates that models were created under scikit-learn 1.6.1 and 1.9.0. Cross-version loading of persisted scikit-learn estimators may produce compatibility warnings and is not guaranteed by scikit-learn.
+
+The original model artefacts are intentionally retained rather than retrained or re-serialized solely to remove these warnings, because doing so could change the research artefact. For reproducible inference, users should use the documented dependency environment and interpret any cross-version compatibility warning as an environment limitation rather than evidence that a prediction has been independently reproduced under the model's original training environment.
+
+The release therefore distinguishes model integrity and prediction consistency from cross-version environment compatibility. Future releases should standardize the training and inference environment and archive the corresponding training code and environment metadata alongside the models.

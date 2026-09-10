@@ -5,6 +5,7 @@ version: 1.0.1
 doi: "10.5281/zenodo.21892444"
 date-released: "2026-08-11"
 type: software
+license: MIT
 
 authors:
   - family-names: "Michael"

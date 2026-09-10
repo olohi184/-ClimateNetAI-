@@ -235,7 +235,7 @@ st.markdown(
             Climate-Aware Machine Learning for Wireless Signal Prediction
         </div>
         <div style="margin-top: 0.8rem; font-size: 0.92rem; color: #6b7280;">
-            Research Prototype • Version 1.0
+            Research Prototype • Version 1.0.1
             &nbsp;&nbsp;|&nbsp;&nbsp;
             Developed by Olohimai Juliet Michael
         </div>

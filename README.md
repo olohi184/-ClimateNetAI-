@@ -2,7 +2,7 @@
 
 ## Live Application
 
-ClimateNetAI v1.0.1 is publicly available at:
+ClimateNetAI v1.0.3 is publicly available at:
 
 https://climatenetai.streamlit.app
 
@@ -11,7 +11,7 @@ ClimateNetAI is a climate-aware machine-learning research application for predic
 
 ## Version
 
-**ClimateNetAI v1.0.1**
+**ClimateNetAI v1.0.3**
 
 Research Prototype  
 Developed by **Olohimai Juliet Michael**
@@ -52,7 +52,7 @@ Model availability may vary by month where validation or reliability checks indi
 
 ## Application Features
 
-ClimateNetAI v1.0.1 includes:
+ClimateNetAI v1.0.3 includes:
 
 - Monthly RSSI prediction
 - Signal-quality classification
@@ -128,7 +128,7 @@ ClimateNetAI is released under the **MIT License**. See the `LICENSE` file for t
 
 If you use ClimateNetAI in research, please cite the archived software release:
 
-**Michael, Olohimai Juliet. ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction, version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.21892444**
+**Michael, Olohimai Juliet. ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction, version 1.0.3. Zenodo. https://doi.org/10.5281/zenodo.21892443**
 
 ## Model Persistence and Reproducibility
 

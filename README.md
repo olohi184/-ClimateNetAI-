@@ -1,26 +1,65 @@
 # ClimateNetAI
 
+**Climate-Aware Machine Learning for Wireless Signal Prediction**
+
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/olohi184/-ClimateNetAI-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Research Software](https://img.shields.io/badge/status-research%20prototype-orange.svg)](https://climatenetai.streamlit.app)
+
+**Founder, Project Originator and Lead Developer:** Olohimai Juliet Michael  
+**Current Version:** 1.0.3  
+**Status:** Research Prototype
+
+---
+
 ## Live Application
 
 ClimateNetAI v1.0.3 is publicly available at:
 
-https://climatenetai.streamlit.app
-
+**https://climatenetai.streamlit.app**
 
 ClimateNetAI is a climate-aware machine-learning research application for predicting wireless signal strength under atmospheric variability.
 
-## Version
+The project investigates how environmental conditions influence wireless signal behaviour and demonstrates how machine-learning models can support the analysis and prediction of Received Signal Strength Indicator (RSSI).
 
-**ClimateNetAI v1.0.3**
+---
 
-Research Prototype  
-Developed by **Olohimai Juliet Michael**
+## Research Status
+
+ClimateNetAI is an **evolving research software prototype informed by ongoing doctoral research in Systems Engineering**.
+
+It should not be interpreted as the final examined outcome of the PhD.
+
+The software is intended primarily for research, experimentation, reproducibility, education, and exploration of climate-aware machine-learning approaches to wireless signal prediction.
+
+ClimateNetAI is not a production telecommunications network-management system, and its predictions should not replace direct operational network measurements.
+
+---
 
 ## Purpose
 
-ClimateNetAI investigates how environmental conditions influence wireless signal behavior and provides model-based RSSI predictions using atmospheric and temporal inputs.
+ClimateNetAI investigates how atmospheric and temporal conditions relate to wireless signal behaviour and provides model-based RSSI predictions.
 
-The application is designed to support research into climate-resilient digital connectivity and machine-learning-assisted wireless network analysis.
+The project supports research into:
+
+- climate-aware wireless communication;
+- climate-resilient digital connectivity;
+- machine-learning-assisted network analysis;
+- model robustness and generalization under environmental variability;
+- transparent evaluation of predictive models; and
+- responsible and trustworthy application of machine learning to digital infrastructure.
+
+---
+
+## Research Context
+
+ClimateNetAI is informed by ongoing doctoral research undertaken by **Olohimai Juliet Michael** in Systems Engineering at the **African University of Science and Technology (AUST), Abuja, Nigeria**.
+
+The broader research investigates machine-learning-based prediction of wireless signal behaviour under atmospheric variability.
+
+ClimateNetAI translates aspects of this research into an interactive research-software environment through which environmental conditions, trained machine-learning models, validation results, and RSSI predictions can be explored.
+
+---
 
 ## Input Variables
 
@@ -33,15 +72,19 @@ ClimateNetAI currently supports the following prediction inputs:
 
 Depending on the trained monthly model, either three or four features may be used internally.
 
+---
+
 ## Target Variable
 
 The prediction target is:
 
-- **RSSI — Received Signal Strength Indicator (dBm)**
+**RSSI — Received Signal Strength Indicator (dBm)**
 
-## Machine Learning Models
+---
 
-ClimateNetAI currently supports:
+## Machine-Learning Models
+
+ClimateNetAI v1.0.3 supports:
 
 - Linear Regression
 - Decision Tree
@@ -50,90 +93,86 @@ ClimateNetAI currently supports:
 
 Model availability may vary by month where validation or reliability checks indicate that a model should not be exposed for prediction.
 
+---
+
 ## Application Features
 
 ClimateNetAI v1.0.3 includes:
 
-- Monthly RSSI prediction
-- Signal-quality classification
-- Practical prediction interpretation
-- MAE, RMSE, and R² validation metrics
-- Model reliability notices
-- Monthly best-model recommendation
-- Side-by-side comparison of all monthly models
-- Monthly R² performance trend visualization
-- Research and data-quality notes
-- Downloadable prediction reports
-- Month-aware model availability controls
+- monthly RSSI prediction;
+- signal-quality classification;
+- practical prediction interpretation;
+- MAE, RMSE, and R² validation metrics;
+- model reliability notices;
+- monthly best-model recommendation;
+- side-by-side comparison of monthly models;
+- monthly R² performance-trend visualization;
+- research and data-quality notes;
+- downloadable prediction reports; and
+- month-aware model availability controls.
+
+---
 
 ## Model Validation
 
-The application reports:
+ClimateNetAI reports:
 
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- Coefficient of Determination (R²)
+- **Mean Absolute Error (MAE)**
+- **Root Mean Squared Error (RMSE)**
+- **Coefficient of Determination (R²)**
 
-Model recommendations are based primarily on validation R² while also displaying MAE and RMSE for context.
+Model recommendations are based primarily on validation R² while MAE and RMSE are also displayed to provide additional context.
 
-Negative R² values indicate poor out-of-sample generalization relative to a mean-prediction baseline.
+A negative validation R² does not mean that the application failed to generate a prediction. It indicates poor out-of-sample generalization relative to predicting the validation-set mean.
+
+The application therefore distinguishes between the ability of a model to produce a numerical prediction and evidence that the model generalizes reliably.
+
+---
 
 ## Research and Data-Quality Notes
 
 ### June and July
 
-The current modeling dataset contains identical Temperature, Pressure, Relative Humidity, and RSSI observations for June and July.
+The current modelling dataset contains identical Temperature, Pressure, Relative Humidity, and RSSI observations for June and July.
 
-These months should therefore not be treated as independent monthly evidence until the original source data is verified.
+These months should therefore **not be treated as independent monthly evidence** until the original source data has been verified.
 
 ### September
 
-September contains 8 observations in the current modeling dataset.
+September contains 8 observations in the current modelling dataset.
 
-Its MAE, RMSE, and R² values were reconstructed using Leave-One-Out Cross Validation (LOOCV) with:
+Its MAE, RMSE, and R² values were reconstructed using **Leave-One-Out Cross Validation (LOOCV)** with:
 
-- Temperature
-- Pressure
-- Relative Humidity
-- Month Number
+- Temperature;
+- Pressure;
+- Relative Humidity; and
+- Month Number.
 
-## Running ClimateNetAI Locally
+These limitations are retained explicitly in ClimateNetAI to support transparent interpretation of the research results.
 
-From the project directory:
+---
 
-```bash
-python3 -m streamlit run app.py
-```
+## Repository Structure
 
-## Core Project Files
-
-Important files include:
+The core repository is organized approximately as follows:
 
 ```text
-app.py
-modeling_dataset_v1.csv
-monthly_model_results.csv
-best_model_per_month_validated.csv
-models/monthly_models/
-requirements.txt
-CITATION.cff
-LICENSE
-```
-
-## License
-
-ClimateNetAI is released under the **MIT License**. See the `LICENSE` file for the full license text.
-
-## Citation
-
-If you use ClimateNetAI in research, please cite the archived software release:
-
-**Michael, Olohimai Juliet. ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction, version 1.0.3. Zenodo. https://doi.org/10.5281/zenodo.21892443**
-
-## Model Persistence and Reproducibility
-
-The archived ClimateNetAI model set preserves the trained model artefacts used by this research release. Inspection of the serialized estimators indicates that models were created under scikit-learn 1.6.1 and 1.9.0. Cross-version loading of persisted scikit-learn estimators may produce compatibility warnings and is not guaranteed by scikit-learn.
-
-The original model artefacts are intentionally retained rather than retrained or re-serialized solely to remove these warnings, because doing so could change the research artefact. For reproducible inference, users should use the documented dependency environment and interpret any cross-version compatibility warning as an environment limitation rather than evidence that a prediction has been independently reproduced under the model's original training environment.
-
-The release therefore distinguishes model integrity and prediction consistency from cross-version environment compatibility. Future releases should standardize the training and inference environment and archive the corresponding training code and environment metadata alongside the models.
+ClimateNetAI/
+│
+├── app.py
+├── modeling_dataset_v1.csv
+├── monthly_model_results.csv
+├── best_model_per_month_validated.csv
+├── requirements.txt
+│
+├── models/
+│   └── monthly_models/
+│
+├── docs/
+│   └── OWNERSHIP_AND_GOVERNANCE.md
+│
+├── AUTHORS.md
+├── CONTRIBUTING.md
+├── CITATION.cff
+├── LICENSE
+└── README.md

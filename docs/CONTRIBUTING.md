@@ -235,8 +235,6 @@ ClimateNetAI
 
 ## Research Software Status
 
-ClimateNetAI is an evolving research software prototype informed by ongoing doctoral research in Systems Engineering.
+ClimateNetAI is an evolving research software platform informed by ongoing doctoral research in Systems Engineering.
 
-It should not be interpreted as the final examined outcome of the PhD or as a production telecommunications network-management system.
-
-Contributors and users should interpret ClimateNetAI outputs together with the documented validation results, research assumptions, data-quality notices, and study limitations.
+The project is under continued research and development and should not be treated as a production telecommunications network-management system. Users and contributors should interpret ClimateNetAI outputs alongside documented validation results, research assumptions, data-quality notices, and study limitations.

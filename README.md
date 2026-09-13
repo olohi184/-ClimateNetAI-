@@ -2,19 +2,19 @@
 
 **Climate-Aware Machine Learning for Wireless Signal Prediction**
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)]("https://github.com/olohi184/ClimateNetAI")
+[![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)]("https://github.com/olohi184/ClimateNetAI")
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Research Software](https://img.shields.io/badge/status-research%20prototype-orange.svg)](https://climatenetai.streamlit.app)
 
 **Founder, Project Originator and Lead Developer:** Olohimai Juliet Michael  
-**Current Version:** 1.0.3  
+**Current Version:** 1.0.4
 **Status:** Research Prototype
 
 ---
 
 ## Live Application
 
-ClimateNetAI v1.0.3 is publicly available at:
+ClimateNetAI v1.0.4 is publicly available at:
 
 **https://climatenetai.streamlit.app**
 
@@ -94,7 +94,7 @@ Model availability may vary by month where validation or reliability checks indi
 
 ## Application Features
 
-ClimateNetAI v1.0.3 includes:
+ClimateNetAI v1.0.4 includes:
 
 - monthly RSSI prediction;
 - signal-quality classification;

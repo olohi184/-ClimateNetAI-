@@ -12,7 +12,7 @@ ClimateNetAI was initiated and established by **Olohimai Juliet Michael** as a r
 
 The project has developed from research exploring the relationship between atmospheric variability and wireless communication performance, including machine-learning-based prediction of Received Signal Strength Indicator (RSSI).
 
-ClimateNetAI is an evolving research software prototype informed by ongoing doctoral research in Systems Engineering. It should not be interpreted as the final examined outcome of the PhD.
+ClimateNetAI is an evolving research software platform initiated by Olohimai Juliet Michael and informed by ongoing doctoral research in Systems Engineering. The project is intended to support continued research, software development, collaboration, reproducibility, and research translation in climate-aware machine learning and resilient digital connectivity.
 
 The ClimateNetAI project identity, project direction, official repository, documentation, releases, and associated project materials are maintained under the stewardship of the project founder, subject to any applicable third-party licences and institutional or collaborative agreements.
 

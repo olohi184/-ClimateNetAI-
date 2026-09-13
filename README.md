@@ -173,3 +173,23 @@ ClimateNetAI/
 ├── CITATION.cff
 ├── LICENSE
 └── README.md
+
+## Reproducing the Results
+
+ClimateNetAI includes a reproducibility pipeline for validating the dataset,
+preparing the monthly modelling data, training reconstructed machine-learning
+models, comparing reproduced results with the archived historical results,
+and selecting the best-performing model for each month.
+
+The reproducibility workflow is implemented in:
+
+- `src/data_validation.py`
+- `src/preprocessing.py`
+- `src/train_models.py`
+- `src/evaluate_models.py`
+- `src/select_best_models.py`
+
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt

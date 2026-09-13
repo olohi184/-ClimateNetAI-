@@ -10,7 +10,7 @@ This file records the authorship, development, maintenance, and acknowledged res
 
 **Founder, Project Originator, Lead Developer and Maintainer — ClimateNetAI**
 
-Olohimai Juliet Michael initiated and developed ClimateNetAI as an evolving research software project informed by her ongoing doctoral research in Systems Engineering at the African University of Science and Technology (AUST), Abuja, Nigeria.
+Olohimai Juliet Michael initiated and developed ClimateNetAI as an evolving research software platform informed by her ongoing doctoral research in Systems Engineering at the African University of Science and Technology (AUST), Abuja, Nigeria.
 
 Primary contributions to the current ClimateNetAI software include:
 

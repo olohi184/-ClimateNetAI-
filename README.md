@@ -26,14 +26,11 @@ The project investigates how environmental conditions influence wireless signal 
 
 ## Research Status
 
-ClimateNetAI is an **evolving research software prototype informed by ongoing doctoral research in Systems Engineering**.
+ClimateNetAI is an evolving research software platform informed by ongoing doctoral research in Systems Engineering.
 
-It should not be interpreted as the final examined outcome of the PhD.
+The project is intended for research, experimentation, reproducibility, education, and continued development of climate-aware machine-learning approaches for wireless signal prediction and resilient digital infrastructure.
 
-The software is intended primarily for research, experimentation, reproducibility, education, and exploration of climate-aware machine-learning approaches to wireless signal prediction.
-
-ClimateNetAI is not a production telecommunications network-management system, and its predictions should not replace direct operational network measurements.
-
+ClimateNetAI is not a production telecommunications network-management system, and its predictions should be interpreted alongside validation results, dataset limitations, and documented research assumptions.
 ---
 
 ## Purpose

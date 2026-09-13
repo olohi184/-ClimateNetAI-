@@ -2,7 +2,7 @@
 
 **Climate-Aware Machine Learning for Wireless Signal Prediction**
 
-[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)](https://github.com/olohi184/-ClimateNetAI-)
+[![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)]("https://github.com/olohi184/ClimateNetAI")
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Research Software](https://img.shields.io/badge/status-research%20prototype-orange.svg)](https://climatenetai.streamlit.app)
 

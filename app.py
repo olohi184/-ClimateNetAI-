@@ -236,6 +236,14 @@ st.markdown(
         </div>
         <div style="margin-top: 0.8rem; font-size: 0.92rem; color: #6b7280;">
            Research Prototype • Version 1.0.4
+           cff-version: 1.2.0
+message: "If you use ClimateNetAI in your research, please cite this software."
+title: "ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction"
+version: 1.0.4
+doi: "10.5281/zenodo.22731906"
+date-released: "2026-09-13"
+type: software
+license: MIT
             &nbsp;&nbsp;|&nbsp;&nbsp;
             Developed by Olohimai Juliet Michael
         </div>

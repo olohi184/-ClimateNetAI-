@@ -1,0 +1,13 @@
+Month,Best_Historical,Best_Reproduced,Same_Best_Model
+April,Linear Regression,Linear Regression,True
+August,Linear Regression,Linear Regression,True
+December,Random Forest,XGBoost,False
+February,Linear Regression,Linear Regression,True
+January,Linear Regression,Linear Regression,True
+July,Random Forest,Random Forest,True
+June,Random Forest,Random Forest,True
+March,Linear Regression,Linear Regression,True
+May,Linear Regression,Linear Regression,True
+November,Random Forest,Random Forest,True
+October,Random Forest,Random Forest,True
+September,Decision Tree,Random Forest,False

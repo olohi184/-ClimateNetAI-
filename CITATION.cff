@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use ClimateNetAI in your research, please cite this software."
 title: "ClimateNetAI: Climate-Aware Machine Learning for Wireless Signal Prediction"
 version: 1.0.4
+doi: "10.5281/zenodo.22731906"
 date-released: "2026-09-13"
 type: software
 license: MIT
